@@ -122,7 +122,7 @@ const controlAddRecipe = async function (newRecipe) {
 };
 
 function newFeature() {
-  console.log('Welcome to Forkify');
+  console.log('Welcome to Forkify 😊');
 }
 
 const init = function () {
