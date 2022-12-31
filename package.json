@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "core-js": "^3.26.1",
+    "fractional": "^1.0.0",
+    "live-server": "^1.2.2",
+    "regenerator-runtime": "^0.13.11"
+  },
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Web App",
+  "default": "index.html",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Ben Okpala",
+  "license": "ISC"
+}
